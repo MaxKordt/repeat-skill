@@ -7,7 +7,7 @@ class Repeat(MycroftSkill):
 
     @intent_file_handler('repeat.intent')
     def handle_repeat(self, message):
-        self.speak_dialog('repeat')
+        self.speak_dialog("repeat")
 
 
 def create_skill():
